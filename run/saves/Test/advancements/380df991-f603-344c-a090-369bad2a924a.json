@@ -1,0 +1,21 @@
+{
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2022-11-30 16:28:19 -0600"
+    },
+    "done": true
+  },
+  "tconstruct:internal/starting_book": {
+    "criteria": {
+      "tick": "2022-11-30 16:28:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2022-11-30 16:28:05 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
