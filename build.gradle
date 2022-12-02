@@ -63,6 +63,9 @@ minecraft {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'rgba'
 
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
             mods {
                 rgba {
                     source sourceSets.main
@@ -79,6 +82,10 @@ minecraft {
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'rgba'
+
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
 
             mods {
                 rgba {
@@ -149,6 +156,9 @@ repositories {
         name "Tehnut Maven FS"
         url "https://maven.tehnut.info"
     }
+    maven {
+        url = "https://maven.theillusivec4.top/"
+    }
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
     // flatDir {
@@ -167,9 +177,9 @@ dependencies {
     implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.18.2-3.5.1.31")
 
 
-    compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.232:api")
-    // at runtime, use the full JEI jar
-    runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.232")
+
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.0.7.1")
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.0.7.1:api")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency

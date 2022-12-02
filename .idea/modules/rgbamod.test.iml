@@ -12,10 +12,6 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="mappingFile" value="C:\Users\m1392\IdeaProjects\rgbamod\build\createMcpToSrg\output.tsrg" />
-    <option name="mcpVersion" value="official_1.18.2" />
-    <option name="minecraftVersion" value="1.18.2" />
-    <option name="platformVersion" value="40.1.51" />
-    <option name="srgType" value="TSRG" />
+    <option name="srgType" value="SRG" />
   </component>
 </module>

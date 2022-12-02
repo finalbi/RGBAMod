@@ -1,4 +1,4 @@
-C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51_mapped_official_1.18.2\forge-1.18.2-40.1.51_mapped_official_1.18.2-recomp.jar
+C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51_mapped_official_1.18.2\forge-1.18.2-40.1.51_mapped_official_1.18.2.jar
 C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
 C:\Users\m1392\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.51\984b7857289782d5f65c5dfc2d68d058d12009d3\javafmllanguage-1.18.2-40.1.51.jar
 C:\Users\m1392\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.1.51\397d75d77c1ccd7e96156767df73eb078d417775\lowcodelanguage-1.18.2-40.1.51.jar
