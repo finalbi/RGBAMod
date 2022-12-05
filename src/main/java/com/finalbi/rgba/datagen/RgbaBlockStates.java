@@ -13,7 +13,7 @@ public class RgbaBlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(Registration.BERMUDIUM_ORE.get());
+        simpleBlock(Registration.BURMUDIUM_ORE.get());
         simpleBlock(Registration.FINALBIUM_ORE.get());
         simpleBlock(Registration.LAVORIUM_ORE.get());
     }

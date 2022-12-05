@@ -19,15 +19,15 @@ public class RgbaBlockTags extends BlockTagsProvider {
     @Override
     protected void addTags() {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(Registration.BERMUDIUM_ORE.get())
+                .add(Registration.BURMUDIUM_ORE.get())
                 .add(Registration.FINALBIUM_ORE.get())
                 .add(Registration.LAVORIUM_ORE.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(Registration.BERMUDIUM_ORE.get())
+                .add(Registration.BURMUDIUM_ORE.get())
                 .add(Registration.FINALBIUM_ORE.get())
                 .add(Registration.LAVORIUM_ORE.get());
         tag(Tags.Blocks.ORES)
-                .add(Registration.BERMUDIUM_ORE.get())
+                .add(Registration.BURMUDIUM_ORE.get())
                 .add(Registration.FINALBIUM_ORE.get())
                 .add(Registration.LAVORIUM_ORE.get());
     }

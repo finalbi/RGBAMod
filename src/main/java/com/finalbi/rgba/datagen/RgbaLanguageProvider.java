@@ -15,6 +15,6 @@ public class RgbaLanguageProvider extends LanguageProvider {
         add("itemGroup.rgbatab", "RGBA");
         add(Registration.FINALBIUM_ORE.get(), "Finalbium ore");
         add(Registration.LAVORIUM_ORE.get(), "Lavorium ore");
-        add(Registration.BERMUDIUM_ORE.get(), "Bermudium ore");
+        add(Registration.BURMUDIUM_ORE.get(), "Burmudium ore");
     }
 }

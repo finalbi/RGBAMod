@@ -13,7 +13,7 @@ public class RgbaItemModels extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        withExistingParent(Registration.BERMUDIUM_ORE.getId().getPath(), modLoc("block/bermudium_ore"));
+        withExistingParent(Registration.BURMUDIUM_ORE.getId().getPath(), modLoc("block/burmudium_ore"));
         withExistingParent(Registration.LAVORIUM_ORE.getId().getPath(), modLoc("block/lavorium_ore"));
         withExistingParent(Registration.FINALBIUM_ORE.getId().getPath(), modLoc("block/finalbium_ore"));
     }

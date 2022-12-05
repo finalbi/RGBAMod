@@ -59,12 +59,6 @@ a mod for the rgba smp
     versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.rgba]]
-modId="create"
-mandatory=true
-versionRange="[0.5.0.e,)"
-ordering="NONE"
-side="BOTH"
 
 [[dependencies.rgba]]
 modId="mantle"
@@ -76,6 +70,6 @@ side="BOTH"
 [[dependencies.rgba]]
 modId="tconstruct"
 mandatory=true
-versionRange="1.18.2-3.5.1.31"
+versionRange="1.18.2-3.5.3.63"
 ordering="NONE"
 side="BOTH"

@@ -1,0 +1,14 @@
+fbfad1bb0b4df00bb10c4b1e3f3af19b6941b70e assets/rgba/blockstates/burmudium_ore.json
+1f56499543209d5145e4a86fb99c06b60bdbcccb assets/rgba/blockstates/finalbium_ore.json
+9a5e86b449d8b4fdc1fedce671987d89eac24962 assets/rgba/blockstates/lavorium_ore.json
+b423de4f314a1ff4d37c7fc20356d210f476ee35 assets/rgba/lang/en_us.json
+b3e5d1989d11c1e9abfc574407fce5d6802148c8 assets/rgba/models/block/burmudium_ore.json
+1b568a5f6848964c9aa65498d4039bc44265560a assets/rgba/models/block/finalbium_ore.json
+987d2b66ecc003c0abd460343b0446dee9f6c4a1 assets/rgba/models/block/lavorium_ore.json
+d8383aaf5d174a7544a9a4a679ac538d5e48d44d assets/rgba/models/item/burmudium_ore.json
+b378c0f70dd5ed910dbd44a9f0166f19fdb5acc1 assets/rgba/models/item/finalbium_ore.json
+9230668953c6fec6bcc92453b8ff24dcf14fda99 assets/rgba/models/item/lavorium_ore.json
+39f98478fe9ace9ce0954151c1ddb49a2682af26 data/forge/tags/blocks/ores.json
+39f98478fe9ace9ce0954151c1ddb49a2682af26 data/forge/tags/items/ores.json
+39f98478fe9ace9ce0954151c1ddb49a2682af26 data/minecraft/tags/blocks/mineable/pickaxe.json
+39f98478fe9ace9ce0954151c1ddb49a2682af26 data/minecraft/tags/blocks/needs_diamond_tool.json

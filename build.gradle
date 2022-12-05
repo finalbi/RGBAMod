@@ -145,15 +145,8 @@ repositories {
         url 'https://dvs1.progwml6.com/files/maven'
 
     }
-    maven {
-        name "Tehnut Maven FS"
-        url "https://maven.tehnut.info"
-    }
 
-    maven {
-        name = 'tterrag maven'
-        url = 'https://maven.tterrag.com/'
-    }
+
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
     // flatDir {
@@ -165,15 +158,11 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.51'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.86'
 
 
     implementation fg.deobf("slimeknights.mantle:Mantle:1.18.2-1.9.27")
-    implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.18.2-3.5.1.31")
-
-    implementation fg.deobf("com.simibubi.create:create-1.18.2:0.5.0.e-195:slim") { transitive = false }
-    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-1.18.2:0.6.6-94")
-
+    implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.18.2-3.5.3.63")
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency

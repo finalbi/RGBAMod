@@ -29,8 +29,8 @@ public class Registration {
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
 
 
-    public static final RegistryObject<Block> BERMUDIUM_ORE = BLOCKS.register("bermudium_ore", () -> new Block(BLOCK_PROPERTIES));
-    public static final RegistryObject<Item> BERMUDIUM_ORE_ITEM = fromBlock(BERMUDIUM_ORE);
+    public static final RegistryObject<Block> BURMUDIUM_ORE = BLOCKS.register("burmudium_ore", () -> new Block(BLOCK_PROPERTIES));
+    public static final RegistryObject<Item> BURMUDIUM_ORE_ITEM = fromBlock(BURMUDIUM_ORE);
     public static final RegistryObject<Block> FINALBIUM_ORE = BLOCKS.register("finalbium_ore", () -> new Block(BLOCK_PROPERTIES));
     public static final RegistryObject<Item> FINALBIUM_ORE_ITEM = fromBlock(FINALBIUM_ORE);
     public static final RegistryObject<Block> LAVORIUM_ORE = BLOCKS.register("lavorium_ore", () -> new Block(BLOCK_PROPERTIES));

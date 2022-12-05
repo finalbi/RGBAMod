@@ -1,17 +1,17 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe
-Arguments: '--clean, C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.18.2-20220404.173914\joined-1.18.2-20220404.173914-srg.jar, --output, C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51\forge-1.18.2-40.1.51-binpatched.jar, --apply, C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51\forge-1.18.2-40.1.51-binpatches.lzma'
+Arguments: '--clean, C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.18.2-20220404.173914\joined-1.18.2-20220404.173914-srg.jar, --output, C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.86\forge-1.18.2-40.1.86-binpatched.jar, --apply, C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.86\forge-1.18.2-40.1.86-binpatches.lzma'
 Classpath:
  - C:\Users\m1392\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.0.12\binarypatcher-1.0.12-fatjar.jar
-Working directory: C:\Users\m1392\IdeaProjects\RGBAMod\build\_applyBinpatches_2
+Working directory: C:\Users\m1392\IdeaProjects\rgbamod\build\_applyBinpatches_2
 Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.18.2-20220404.173914\joined-1.18.2-20220404.173914-srg.jar
-  Output:    C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51\forge-1.18.2-40.1.51-binpatched.jar
+  Output:    C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.86\forge-1.18.2-40.1.86-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51\forge-1.18.2-40.1.51-binpatches.lzma
-Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.51\forge-1.18.2-40.1.51-binpatches.lzma
+  Patches:   C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.86\forge-1.18.2-40.1.86-binpatches.lzma
+Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.86\forge-1.18.2-40.1.86-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: c9bb7d14 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -700,6 +700,14 @@ Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: c71d6165 Exists: true
   Reading patch net.minecraft.client.server.IntegratedServer.binpatch
     Checksum: e41a951 Exists: true
+  Reading patch net.minecraft.client.server.LanServerDetection$LanServerDetector.binpatch
+    Checksum: b2383a0f Exists: true
+  Reading patch net.minecraft.client.server.LanServerDetection$LanServerList.binpatch
+    Checksum: ec4b1410 Exists: true
+  Reading patch net.minecraft.client.server.LanServerDetection.binpatch
+    Checksum: 4b9a21d5 Exists: true
+  Reading patch net.minecraft.client.server.LanServerPinger.binpatch
+    Checksum: 20bc6cef Exists: true
   Reading patch net.minecraft.client.sounds.SoundEngine$DeviceCheckState.binpatch
     Checksum: 2e17a5a0 Exists: true
   Reading patch net.minecraft.client.sounds.SoundEngine.binpatch
@@ -1308,6 +1316,8 @@ Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 1e923116 Exists: true
   Reading patch net.minecraft.world.entity.ai.behavior.HarvestFarmland.binpatch
     Checksum: 9d85df1 Exists: true
+  Reading patch net.minecraft.world.entity.ai.behavior.StartAttacking.binpatch
+    Checksum: fef8d5d6 Exists: true
   Reading patch net.minecraft.world.entity.ai.control.MoveControl$Operation.binpatch
     Checksum: c6878c76 Exists: true
   Reading patch net.minecraft.world.entity.ai.control.MoveControl.binpatch
@@ -1836,6 +1846,8 @@ Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: b604d7a0 Exists: true
   Reading patch net.minecraft.world.item.CreativeModeTab.binpatch
     Checksum: 9e163eb5 Exists: true
+  Reading patch net.minecraft.world.item.CrossbowItem.binpatch
+    Checksum: e5089123 Exists: true
   Reading patch net.minecraft.world.item.DiggerItem.binpatch
     Checksum: 300f5dbe Exists: true
   Reading patch net.minecraft.world.item.DyeColor.binpatch
@@ -2152,6 +2164,8 @@ Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 9758cd4c Exists: true
   Reading patch net.minecraft.world.level.block.FlowerPotBlock.binpatch
     Checksum: 5aa73ce6 Exists: true
+  Reading patch net.minecraft.world.level.block.FungusBlock.binpatch
+    Checksum: 37141926 Exists: true
   Reading patch net.minecraft.world.level.block.GrowingPlantHeadBlock.binpatch
     Checksum: f301f453 Exists: true
   Reading patch net.minecraft.world.level.block.LeavesBlock.binpatch
@@ -2278,6 +2292,10 @@ Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 738b5e92 Exists: true
   Reading patch net.minecraft.world.level.block.entity.SpawnerBlockEntity.binpatch
     Checksum: fc3352b6 Exists: true
+  Reading patch net.minecraft.world.level.block.grower.AbstractMegaTreeGrower.binpatch
+    Checksum: 7fc649f5 Exists: true
+  Reading patch net.minecraft.world.level.block.grower.AbstractTreeGrower.binpatch
+    Checksum: aa500d5 Exists: true
   Reading patch net.minecraft.world.level.block.piston.PistonBaseBlock$1.binpatch
     Checksum: df4c90 Exists: true
   Reading patch net.minecraft.world.level.block.piston.PistonBaseBlock.binpatch
@@ -2516,10 +2534,6 @@ Loading patches file: C:\Users\m1392\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 6a41b59a Exists: true
   Reading patch net.minecraft.world.level.storage.loot.parameters.LootContextParamSets.binpatch
     Checksum: befbe89f Exists: true
-  Reading patch net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition$Serializer.binpatch
-    Checksum: cef5dbc1 Exists: true
-  Reading patch net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition.binpatch
-    Checksum: 3da3dc21 Exists: true
   Reading patch net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer.binpatch
     Checksum: d49c13b4 Exists: true
   Reading patch net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition.binpatch
@@ -2880,6 +2894,10 @@ Processing: C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/client/resources/sounds/SoundInstance$Attenuation 1/1
   Patching net/minecraft/client/resources/sounds/SoundInstance 1/1
   Patching net/minecraft/client/server/IntegratedServer 1/1
+  Patching net/minecraft/client/server/LanServerDetection$LanServerDetector 1/1
+  Patching net/minecraft/client/server/LanServerDetection$LanServerList 1/1
+  Patching net/minecraft/client/server/LanServerDetection 1/1
+  Patching net/minecraft/client/server/LanServerPinger 1/1
   Patching net/minecraft/client/sounds/SoundEngine$DeviceCheckState 1/1
   Patching net/minecraft/client/sounds/SoundEngine 1/1
   Patching net/minecraft/commands/CommandSourceStack 1/1
@@ -3184,6 +3202,7 @@ Processing: C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/entity/ai/behavior/CrossbowAttack$CrossbowState 1/1
   Patching net/minecraft/world/entity/ai/behavior/CrossbowAttack 1/1
   Patching net/minecraft/world/entity/ai/behavior/HarvestFarmland 1/1
+  Patching net/minecraft/world/entity/ai/behavior/StartAttacking 1/1
   Patching net/minecraft/world/entity/ai/control/MoveControl$Operation 1/1
   Patching net/minecraft/world/entity/ai/control/MoveControl 1/1
   Patching net/minecraft/world/entity/ai/goal/BreakDoorGoal 1/1
@@ -3448,6 +3467,7 @@ Processing: C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/item/CreativeModeTab$8 1/1
   Patching net/minecraft/world/item/CreativeModeTab$9 1/1
   Patching net/minecraft/world/item/CreativeModeTab 1/1
+  Patching net/minecraft/world/item/CrossbowItem 1/1
   Patching net/minecraft/world/item/DiggerItem 1/1
   Patching net/minecraft/world/item/DyeColor 1/1
   Patching net/minecraft/world/item/DyeableHorseArmorItem 1/1
@@ -3604,6 +3624,7 @@ Processing: C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/level/block/FarmBlock 1/1
   Patching net/minecraft/world/level/block/FireBlock 1/1
   Patching net/minecraft/world/level/block/FlowerPotBlock 1/1
+  Patching net/minecraft/world/level/block/FungusBlock 1/1
   Patching net/minecraft/world/level/block/GrowingPlantHeadBlock 1/1
   Patching net/minecraft/world/level/block/LeavesBlock 1/1
   Patching net/minecraft/world/level/block/LiquidBlock 1/1
@@ -3667,6 +3688,8 @@ Processing: C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/SpawnerBlockEntity$1 1/1
   Patching net/minecraft/world/level/block/entity/SpawnerBlockEntity 1/1
+  Patching net/minecraft/world/level/block/grower/AbstractMegaTreeGrower 1/1
+  Patching net/minecraft/world/level/block/grower/AbstractTreeGrower 1/1
   Patching net/minecraft/world/level/block/piston/PistonBaseBlock$1 1/1
   Patching net/minecraft/world/level/block/piston/PistonBaseBlock 1/1
   Patching net/minecraft/world/level/block/piston/PistonMovingBlockEntity$1 1/1
@@ -3786,8 +3809,6 @@ Processing: C:\Users\m1392\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/level/storage/loot/functions/SmeltItemFunction$Serializer 1/1
   Patching net/minecraft/world/level/storage/loot/functions/SmeltItemFunction 1/1
   Patching net/minecraft/world/level/storage/loot/parameters/LootContextParamSets 1/1
-  Patching net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceCondition$Serializer 1/1
-  Patching net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceCondition 1/1
   Patching net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceWithLootingCondition$Serializer 1/1
   Patching net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceWithLootingCondition 1/1
   Patching net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider$1 1/1

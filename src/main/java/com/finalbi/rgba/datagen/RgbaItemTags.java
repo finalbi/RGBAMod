@@ -17,7 +17,7 @@ public class RgbaItemTags extends ItemTagsProvider {
     @Override
     protected void addTags() {
         tag(Tags.Items.ORES)
-                .add(Registration.BERMUDIUM_ORE_ITEM.get())
+                .add(Registration.BURMUDIUM_ORE_ITEM.get())
                 .add(Registration.FINALBIUM_ORE_ITEM.get())
                 .add(Registration.LAVORIUM_ORE_ITEM.get());
     }
